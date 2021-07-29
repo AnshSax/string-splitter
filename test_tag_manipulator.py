@@ -40,9 +40,9 @@ def test_split_one_string_result_array_of_one():
     # assert
     assert result == expResult
 
-def test_split_comma_string_result_array_of_one():
+def test_split_comma_after_string_result_array_of_one():
     # arrange
-    stringToSplit = "java"
+    stringToSplit = "java,"
     regex = ","
     expResult = ["java"]
     result = None
